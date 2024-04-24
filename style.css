@@ -24,11 +24,13 @@ body {
 }
 
 #time {
+  font-family: 'Times New Roman', Times, serif;
   font-size: 58px;
   color: rgb(0, 255, 234);
 }
 
 #date {
+  font-family:  'Times New Roman', Times, serif;
   font-size: 34px;
   color: rgb(255, 196, 0);
 }
