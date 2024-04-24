@@ -4,7 +4,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: url(./image/back.jpg) no-repeat;
+  background: url(./image/1.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   margin: 0;
@@ -25,7 +25,7 @@ body {
 
 #time {
   font-size: 58px;
-  color: rgb(255, 196, 0);
+  color: rgb(0, 255, 234);
 }
 
 #date {
