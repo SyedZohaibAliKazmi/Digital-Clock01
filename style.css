@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(./back.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.clock {
+    width: auto;
+    background-color: rgba(255, 255, 255, 0.151);
+    
+    border: 2px solid rgb(0, 174, 255);
+    backdrop-filter: blur(20px);
+    box-shadow: 0,0,0,.1;
+    /* color: #191F31; */
+    border-radius: 10px;
+    padding: 30px 40px;
+    text-align: center;
+}
+
+#time {
+    font-size: 58px;
+    color: rgb(255, 196, 0);
+}
+
+#date {
+    font-size: 34px;
+    color: rgb(255, 196, 0);
+}
+
+
+@media screen and (max-width: 480px) {
+    #time{
+        font-size: 38px;
+    }
+    #date{
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #time{
+        font-size: 34px;
+    }
+    #date{
+        font-size: 22px;
+    }
+}
